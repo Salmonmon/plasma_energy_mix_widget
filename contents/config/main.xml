@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="updateInterval" type="int">
+            <default>15</default>
+        </entry>
+        <entry name="chartLabelPositions" type="string">
+            <default>LabelInsideNormal</default>
+        </entry>
+        <entry name="smallPieFilled" type="bool">
+            <default>false</default>
+        </entry>
+        <entry name="smallPieSmoothEnds" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="smallPieThickness" type="int">
+            <default>5</default>
+        </entry>
+    </group>
+    <group name="Colours">
+        <entry name="useDefaultTextColour" type="bool">
+            <default>true</default>
+        </entry>
+        <entry name="customTextColour" type="Color">
+            <default>#ffffff</default>
+        </entry>
+        <entry name="windColour" type="Color">
+            <default>#5eb770</default>
+        </entry>
+        <entry name="solarColour" type="Color">
+            <default>#6be638</default>
+        </entry>
+        <entry name="hydroColour" type="Color">
+            <default>#4ecc4e</default>
+        </entry>
+        <entry name="nuclearColour" type="Color">
+            <default>#9ebf45</default>
+        </entry>
+        <entry name="biomassColour" type="Color">
+            <default>#ab9855</default>
+        </entry>
+        <entry name="importColour" type="Color">
+            <default>#d48a35</default>
+        </entry>
+        <entry name="gasColour" type="Color">
+            <default>#d95f66</default>
+        </entry>
+        <entry name="coalColour" type="Color">
+            <default>#000000</default>
+        </entry>
+        <entry name="otherColour" type="Color">
+            <default>#f909f0</default>
+        </entry>
+    </group>
+</kcfg>

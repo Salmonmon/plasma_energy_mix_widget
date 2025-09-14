@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "untitledmammal@gmail.com",
+                "Name": "Solomon Hutchinson"
+            }
+        ],
+        "Category": "Environment and Weather",
+        "Description": "A widget to dispaly UK energy mix information",
+        "Icon": "battery",
+        "Id": "energy.mix.widget",
+        "Name": "Show energy mix",
+        "License": "GPL-3.0+",
+        "Version": "1"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}
